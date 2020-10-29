@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VOLT MOTORS</title>
+    <link rel="stylesheet" href="/styles/style.css" type="text/css" />
+    <script src="https://kit.fontawesome.com/c566af2886.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="nav-bar">
+        <header>
+            <div class="logo-desktop">
+                <img src= "/assets/logo-blanco.png" class= 'logo-desktop' alt="logo">
+            </div>
+            <div class="logo-mobile"> <img src="/assets/logo-negro.png" style="height: 50px;" alt="logo-mobile"></div>
+            <input type="checkbox" class="menu-inicio" id="menu-inicio">
+            <label class="cruz" for="menu-inicio"><i class="fas fa-times" id="cruz"></i></label>
+            <label class="barras" for="menu-inicio"><i class="fas fa-bars" id="barras"></i></label>
+            <nav class="nav">
+                <ul class="list">
+                    <li><a href="#features" style="margin-top: 20px;">FEATURES</a></li>
+                    <li><a href="#us">NOSOTROS</a></li>
+                    <li><a href="#models">MODELOS</a></li>
+                    <li><a href="#contact">CONTACTO</a></li>
+                </ul>
+                <div class="list-mobile">
+                    <p><a href="#models" style="margin-top: 20px;">Z1</a></p>
+                    <p><a href="#models">W1</a></p>
+                    <p><a href="#models">E1</a></p>
+                </div>
+           
+        </header>
+    </section>
+
+    <section id="background-image">
+        <div class="back-image" style="width: 100%;"> <img src="/assets/foto-fondo.png" style="width: 100%;"></div>
+        <div> <h1 class="title"> VOLT MOTORS</h1>
+    </section>
+  
+  
+    <section id="features">
+        <div class="grid-container">
+            <div class="item1"> <img src="/assets/dibujo-auto-derecha.png" alt="dibujo del auto volt cargandose" class= "grid-photos"></div>
+            <div class="item2"><p class="parragraph-grid"> 
+                <ul class="parragraph-grid" id="list">
+                    <li><a >Mínimo consumo energético, con carga 220</a></li>
+                    <li><a> Ahorro del 90% en el costo de operación respecto de vehículos operados con combustibles fósiles</a></li>
+                    <li><a>Recorre 100 kilómetros al precio de una taza de café.</a></li>
+                    <li><a >Frenos regenerativos</a></li>
+                    <li><a>One Foot drive</a></li>
+                    <li><a> Ágil, con gran capacidad de carga</a></li>
+                    <li><a>Homologado y patentable</a></li>
+                    <li><a>Apto para circular en zonas urbanas y periurbanas</a></li>
+                </ul>
+            </div>
+            <div class="item3" id="us"> <p class="parragraph-grid">Somos la primera empresa tecnológica, con ingeniería y producción nacional, en recibir la licencia para fabricar vehículos bajo estándares de calidad y funcionalidad mundiales. <br> Estamos dando un paso trascendental en nuestro aporte a la logística de personas, con un producto inteligente, económico y disruptivo.</p></div>
+            <div class="item4"> <img src="/assets/dibujo-auto.jpg" alt="dibujo del auto volt cargandose" class="grid-photos" id="photo"></div>
+        </div>
+    </section>
+
+    <section id="features-mobile">
+        <div class="photo-car">
+            <img src="/assets/auto-derecha-chico.png" alt="dibujo del auto volt cargandose" style="height: 150px; width: 100%; margin-top: -10px;">
+        </div>
+        <div> 
+            <ul class="small-list">
+                <li><a >Mínimo consumo energético, con carga 220</a></li>
+                <li><a> Ahorro del 90% en el costo de operación respecto de vehículos operados con combustibles fósiles</a></li>
+                <li><a>Recorre 100 kilómetros al precio de una taza de café.</a></li>
+                <li><a >Frenos regenerativos</a></li>
+                <li><a>One Foot drive</a></li>
+                <li><a> Ágil, con gran capacidad de carga</a></li>
+            </ul>
+        </div>
+        <div class="photo-car" id="us-mobile">
+            <img src="/assets/auto-izquierda-chico.png" alt="dibujo del auto volt cargandose" style="height: 150px; width: 100%;">
+        </div>
+        <div class="small-us" id="small-us"> <p>Somos la primera empresa tecnológica, con ingeniería y producción nacional, en recibir la licencia para fabricar vehículos bajo estándares de calidad y funcionalidad mundiales. <br> Estamos dando un paso trascendental en nuestro aporte a la logística de personas, con un producto inteligente, económico y disruptivo.</p></div>
+    </section>
+  
+    <section id="models">
+        <div class="models"> 
+            <h1> NUESTROS MODELOS</h1>
+        </div>
+        <div class="boton-models">
+            <button class="button" id="boton-z1">
+                VOLT Z1
+                <div class="button__horizontal"></div>
+                <div class="button__vertical"></div>
+            </button>
+            <section id="z1" hidden>
+                <div id="model-containerZ" class="model-style" ></div>
+                <div id="image-containerZ" class="image-style"></div>
+                <div id="description-containerZ" class="description-style"></div>
+                <div id="caracs-containerZ" class="caracs-style"></div>
+            </section>
+        
+            <button class="button" id="boton-w1">
+                VOLT W1
+                <div class="button__horizontal"></div>
+                <div class="button__vertical"></div>
+            </button>
+            <section id="w1" hidden>
+                <div id="model-containerW" class="model-style"></div>
+                <div id="image-containerW" class="image-style"></div>
+                <div id="description-containerW" class="description-style"></div>
+                <div id="caracs-containerW" class="caracs-style"></div>
+            </section>
+            <button class="button" id="boton-e1">
+                VOLT E1
+                <div class="button__horizontal"></div>
+                <div class="button__vertical"></div>
+            </button>
+            <section id="e1"hidden>
+                <div id="model-containerE" class="model-style"></div>
+                <div id="image-containerE" class="image-style"></div>
+                <div id="description-containerE" class="description-style"></div>
+                <div id="caracs-containerE" class="caracs-style"></div>
+            </section>
+        </div>
+    </section>
+ 
+    <section id="contact">
+        <div id="info">
+            <h3 id="find-us"> <i class="fas fa-map-marker-alt"></i> AV. VOZ DEL INTERIOR 7000</h3>
+            <h3 id="social-media">
+               <a href="https://www.instagram.com/volt.motors/?hl=es-la"><i class="fab fa-instagram" style="margin-top: 20px; color: white;"></i></a>&nbsp;
+               <a href="https://www.facebook.com/volt.motors"><i class="fab fa-facebook" style="color: white;"></i></a>&nbsp;
+                <a href="https://www.linkedin.com/company/volt-motors/"><i class="fab fa-linkedin" style="color: white;"></i></a>
+            </h3>
+            <h3 id="contact-us">
+                <i class="fas fa-mobile-alt" style="margin-top: 20px;"></i> 0336 435-6743
+            </h3>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <script src="/script.js"></script>
+</body>
+</html>
